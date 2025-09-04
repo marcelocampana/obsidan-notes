@@ -1,5 +1,5 @@
 ---
-title: "Ejemplo Completo de Markdown"
+title: "Escribir en Markdown"
 author: "Marcelo Campana"
 date: 2025-09-03
 tags: ["markdown", "ejemplo", "documentación", "tutorial"]

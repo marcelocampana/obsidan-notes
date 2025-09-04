@@ -65,8 +65,16 @@ const links = computed(() => {
           :key="index"
           v-bind="link"
         />
-
-        <PageHeaderLinks />
+      </template>
+      <template #default>
+            <UBadge
+          v-for="(tag, index) in page.meta?.tags || []"
+          :key="index"
+          color="neutral"
+          variant="outline"
+          size="xs"
+          class="capitalize mr-1 mt-3"
+        >{{ tag }}</UBadge>
       </template>
     </UPageHeader>
 

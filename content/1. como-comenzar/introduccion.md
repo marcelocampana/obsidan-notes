@@ -8,7 +8,7 @@ tags:
   - segundo-cerebro
 ---
 
-# Guía: Cómo usar las notas
+## Guía: Cómo usar las notas
 
 Este sistema está inspirado en el método **Zettelkasten** de Niklas Luhmann.  
 La idea es construir un **segundo cerebro digital** donde capturas, organizas y conectas tus conocimientos para que trabajen a tu favor.
@@ -17,7 +17,7 @@ El sistema funciona con **tres carpetas principales**:
 
 ---
 
-## 1. Buzón de entrada ¿Para qué sirve?
+## 1. Buzón de entrada
 Aquí se capturan todas las ideas rápidas, pensamientos, frases o notas sueltas.  
 No importa si son desordenadas: lo importante es **capturarlas antes de olvidarlas**.  
 
@@ -30,7 +30,6 @@ No importa si son desordenadas: lo importante es **capturarlas antes de olvidarl
 ---
 
 ##  2. Referencia
-**¿Para qué sirve?**  
 En esta carpeta se guardan las notas que provienen de **fuentes externas**: libros, artículos, cursos, videos o papers.  
 Aquí registras citas, apuntes y resúmenes de lo que lees o estudias.  
 Estas notas no son definitivas: se usan como base para crear ideas permanentes.  
@@ -45,7 +44,6 @@ Estas notas no son definitivas: se usan como base para crear ideas permanentes.
 ---
 
 ## 3. Ideas conectadas
-**¿Para qué sirve?**  
 Aquí se almacenan las **notas permanentes**, que son el corazón del sistema.  
 Cada nota contiene **una sola idea atómica**, escrita con tus propias palabras, y debe estar **enlazada a otras notas**.  
 De esta forma construyes una red de conocimiento interconectada.  

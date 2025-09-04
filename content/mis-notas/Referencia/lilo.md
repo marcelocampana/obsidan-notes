@@ -1,4 +1,5 @@
-[[feo]]## **Mi objetivo principal**
+
+## **Mi objetivo principal**
 
 Quiero desarrollar una aplicación SaaS que centralice y optimice la gestión de leads y la atención al cliente a través de múltiples canales digitales, como WhatsApp, Instagram, Facebook, formularios web y un chatbot web integrado. Mi meta es ayudar a las empresas, especialmente a las PYMEs, a mejorar la conversión de leads en compradores mediante una plataforma que ofrezca seguimiento estadístico preciso, dashboards con insights accionables y soporte de inteligencia artificial (IA) para automatizar procesos, predecir comportamientos y personalizar interacciones. Busco proporcionar una solución integral que permita a las empresas entender y optimizar el rendimiento de sus canales digitales, aumentando su eficiencia y rentabilidad.
 
