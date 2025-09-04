@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { useClipboard } from '@vueuse/core'
+import { useShowCheckbox } from '~/composables/useShowCheckbox'
 
+const { showCheckbox } = useShowCheckbox()
 const route = useRoute()
 const toast = useToast()
 const { copy, copied } = useClipboard()
@@ -50,8 +52,19 @@ async function copyPage() {
 
 <template>
   <UButtonGroup>
+    <!-- <UButton
+        label="Copiar página"
+        :icon="copied ? 'i-lucide-copy-check' : 'i-lucide-copy'"
+        color="neutral"
+        variant="outline"
+        :loading="isCopying"
+        :ui="{
+          leadingIcon: [copied ? 'text-primary' : 'text-neutral', 'size-3.5']
+        }"
+        @click="copyPage"
+    /> -->
     <UButton
-      label="Copiar página"
+      label="Copiar varias URLs"
       :icon="copied ? 'i-lucide-copy-check' : 'i-lucide-copy'"
       color="neutral"
       variant="outline"
@@ -59,7 +72,7 @@ async function copyPage() {
       :ui="{
         leadingIcon: [copied ? 'text-primary' : 'text-neutral', 'size-3.5']
       }"
-      @click="copyPage"
+      @click="showCheckbox = true"
     />
     <UDropdownMenu
       :items="items"

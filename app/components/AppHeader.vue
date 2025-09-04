@@ -34,22 +34,14 @@ const { header } = useAppConfig()
       </span>
     </template>
 
-    <template
-      v-else
-      #left
-    >
-      <NuxtLink :to="header?.to || '/'">
-        <LogoPro class="w-auto h-6 shrink-0" />
+    <template v-else #left>
+      <NuxtLink to="/" class="font-bold text-xl text-primary">
+        <span class="text-neutral-500">Mis</span> notas
       </NuxtLink>
-
-      <TemplateMenu />
     </template>
 
     <template #right>
-      <UContentSearchButton
-        v-if="header?.search"
-        class="lg:hidden"
-      />
+      <UContentSearchButton v-if="header?.search" class="lg:hidden" />
 
       <UColorModeButton v-if="header?.colorMode" />
 
@@ -63,10 +55,7 @@ const { header } = useAppConfig()
     </template>
 
     <template #body>
-      <UContentNavigation
-        highlight
-        :navigation="navigation"
-      />
+      <UContentNavigation highlight :navigation="navigation" />
     </template>
   </UHeader>
 </template>
