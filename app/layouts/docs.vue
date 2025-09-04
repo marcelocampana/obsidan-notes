@@ -77,7 +77,7 @@ function getMdPath(path: string) {
           <UContentNavigation highlight :navigation="navigation">
             <template #link-leading="{ link }">
               <UCheckbox
-                v-if="link.path && showCheckbox"
+                v-if="link.path && showCheckbox && !link.children?.length"
                 :model-value="selectedUrls.includes(getMdPath(link.path))"
                 @update:model-value="
                   checked => toggleUrl(!!checked, getMdPath(link.path))
