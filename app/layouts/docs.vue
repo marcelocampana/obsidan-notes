@@ -54,9 +54,8 @@ function getMdPath(path: string) {
       <template #left>
         <UPageAside class="border-r border-gray-300 dark:border-gray-700">
           <UButton
-            v-if="selectedUrls.length > 0 && showCheckbox"
+            v-if="showCheckbox"
             class="mr-2 mb-4"
-            :disabled="selectedUrls.length === 0"
             icon="i-lucide-x"
             size="sm"
             variant="soft"
