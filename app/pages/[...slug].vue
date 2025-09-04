@@ -71,6 +71,7 @@ const links = computed(() => {
           :key="index"
           v-bind="link"
         />
+        <PageHeaderLinks />
       </template>
       <template #default>
         <UBadge
