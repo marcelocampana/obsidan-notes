@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4ce58434d543ca61",
+        "id": "7711e90a0d7e0ad8",
         "type": "tabs",
         "children": [
           {
-            "id": "b14208c7fa0128e7",
+            "id": "4ee5216b7f2076fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Referencia/lilo.md",
+                "file": "Conexiones/webmometro-como-motor-de-marketing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lilo"
+              "title": "webmometro-como-motor-de-marketing"
             }
           }
         ]
@@ -163,12 +163,22 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "bases:Crear nueva base": false,
+      "note-id:Open side panel": false
     }
   },
-  "active": "b14208c7fa0128e7",
+  "active": "4ee5216b7f2076fc",
   "lastOpenFiles": [
+    "Conexiones/crm-omnicanal-impulsado-por-IA.md",
+    "Conexiones/webmometro-como-motor-de-marketing.md",
+    "Plantillas/Conexiones.md",
+    "Sin título.canvas",
+    "Sin título.md",
+    "Ideas conectadas/Sin título.md",
+    "Plantillas",
     "Buzon de entrada/Archivo 3.md",
+    "Ideas conectadas/Archivo 4.md",
+    "Referencia/lilo.md",
     "Buzon de entrada/Archivo 2.md"
   ]
 }
