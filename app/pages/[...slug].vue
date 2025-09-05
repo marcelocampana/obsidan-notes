@@ -84,6 +84,14 @@ const links = computed(() => {
         >
           {{ tag }}
         </UBadge>
+        <UBadge
+          color="info"
+          variant="outline"
+          size="xs"
+          class="capitalize ml-2 mt-3"
+        >
+          {{ page.meta?.date }}
+        </UBadge>
       </template>
     </UPageHeader>
 

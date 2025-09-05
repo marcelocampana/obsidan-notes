@@ -10,7 +10,11 @@ export default defineContentConfig({
       type: 'page',
       source: {
         include: '**',
-        exclude: ['index.md', 'mis-notas/.obsidian/**']
+        exclude: [
+          'index.md',
+          'mis-notas/.obsidian/**',
+          'mis-notas/Plantillas/**'
+        ]
       },
       schema: z.object({
         links: z
