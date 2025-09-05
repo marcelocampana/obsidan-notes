@@ -9,12 +9,10 @@ export default defineContentConfig({
     docs: defineCollection({
       type: 'page',
       source: {
+        repository: 'https://github.com/marcelocampana/obsidian-notes',
         include: '**',
-        exclude: [
-          'index.md',
-          'mis-notas/.obsidian/**',
-          'mis-notas/Plantillas/**'
-        ]
+        exclude: ['Plantillas/**', '.content.cache.json', '.gitignore'],
+        authToken: process.env.GITHUB_TOKEN
       },
       schema: z.object({
         links: z
